@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fusezone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fuse config/zone key checks for twelve-factor services.",
+  "bin": {
+    "fusezone": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fusezone.git"
+  },
+  "homepage": "https://theworker02.github.io/fusezone/",
+  "keywords": [
+    "fuse",
+    "zone",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
